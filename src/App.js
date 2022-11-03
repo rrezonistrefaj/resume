@@ -2,6 +2,8 @@ import { ThemeProvider } from 'styled-components';
 import Header from './components/Header';
 import{Container}from './components/styles/Container.styled'
 import GlobalStyles from './components/styles/Global';
+import './App.css';
+
 
 const theme = {
   colors:{
@@ -18,7 +20,8 @@ function App() {
     <GlobalStyles/>
     <Header/>
     <Container>
-        <p>p</p>
+        <h5>Full-Stack Engineer with 5+ years of experience turning ideas into reality, from creating MVPs to developing high-end products and services.
+</h5>
     </Container>
     </>
     </ThemeProvider>

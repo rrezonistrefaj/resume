@@ -23,7 +23,7 @@ import styled from 'styled-components'
 
     export const Logo = styled.h4`
     font-size: 2rem;
-    margin: 0;
+    margin-right: 100vh ;
     padding: 0;
     word-spacing: 200px;
 
