@@ -2,15 +2,10 @@
 import styled from 'styled-components' 
     export const StyledHeader = styled.header`
         
-    display:flex;    
-    justify-content: space-between;
-    postion:relative;
+    display: flex;    
     padding: 40px 0;
     margin-bottom: 20px;
-        h1{
-            font-size: 40px;
-            margin: auto;
-            padding: 0;
+       
         }
         img{
             border-radius: 50%;
@@ -18,4 +13,20 @@ import styled from 'styled-components'
             align-items:right;
         }
         }
+    `
+    export const Nav = styled.nav`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    `
+
+    export const Logo = styled.h4`
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    word-spacing: 200px;
+
+    `
+    export const img = styled.img`
     `

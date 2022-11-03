@@ -18,6 +18,8 @@ const GlobalStyles = createGlobalStyle`
     }
     img{
         max-width: 100%;
+        position:relative;
+        align-items: right;
     }
 `
 export default GlobalStyles
