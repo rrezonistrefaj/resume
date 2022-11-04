@@ -4,11 +4,15 @@
     box-sizing: border-box;
     list-style: none;
     font-family: "Montserrat", sans-serif;
+
   }
   
   body {
-    background: #fff;
-  
+    background-color: #E4EBF1;
     line-height: 1,6;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
  
   }
