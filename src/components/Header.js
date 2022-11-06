@@ -1,21 +1,47 @@
- import { StyledHeader, Nav ,Logo } from "./styles/Header.styled"
- import { Container } from "./styles/Container.styled"
- export default function Header() {
-    return(    
-            <StyledHeader>
-                <Container>
-            
-                <Nav>
-                <Logo>
-                    <h4>Rrezon</h4>
-                    <h4>Istrefaj</h4>
-                    </Logo>
-                <img src = "https://pbs.twimg.com/profile_images/1572307978400792577/MTSO0kTv_400x400.jpg" alt = "pfp"></img>
+import React from 'react'
+import styled from 'styled-components';
+import avatar from '../img/avatar.jpeg';
 
-                </Nav>
-               
-                </Container>
-            
-            </StyledHeader>
-    )
- }
+function Header() {
+  return (
+    <HeaderStyled>
+        <div className = "header-name">
+        <h1>Rrezon</h1>
+        <br/>
+        <h1>Istrefaj</h1>        
+        </div>
+        <div className="header-avatar">
+        <img src={avatar} alt=''></img>
+        </div>
+    </HeaderStyled>
+  )
+}
+const HeaderStyled = styled.section`
+ position: relative;
+  display: flex;
+  justify-content: space-between;
+  .header-name{
+  color: #232e53;
+  font-size: 1.5em;
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  }
+  .header-avatar{
+    position: relative ;
+  width:130px ;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 100px;
+  margin-top: 70px;
+  }
+  .header-avatar img{
+    top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+`;
+export default Header
