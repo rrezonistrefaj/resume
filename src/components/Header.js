@@ -20,10 +20,12 @@ const HeaderStyled = styled.section`
  position: relative;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
   .header-name{
   color: #232e53;
-  font-size: 1.5em;
-  margin-top: 70px;
+  line-height: 0.5;
+  font-size: 2em;
+  margin-top: 90px;
   margin-left: 100px;
   margin-bottom: 30px;
   }

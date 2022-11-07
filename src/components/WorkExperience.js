@@ -9,6 +9,7 @@ function WorkExperience() {
        <div className="c1"> 
         <div className="company"><h6>Tagomo</h6></div>
         <div className="date"><p>Aug 2022 - Sep 2022</p></div>
+        <div className=""></div>
         </div>
 
     </WorkExperienceStyled>
@@ -16,12 +17,13 @@ function WorkExperience() {
 }
     const WorkExperienceStyled = styled.section`
         margin-left: 100px;
+        margin-bottom: 70px;
        .WE{
         font-size: 1.1rem;
-        font-stretch: wider;
         color: #232e53;
         margin-bottom: 40px;
        }
+
        .company{
         color: #232e53;
         font-size: 1.6rem;
