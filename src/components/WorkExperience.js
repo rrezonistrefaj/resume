@@ -22,7 +22,7 @@ function WorkExperience() {
                     <li>Big booty bitchez bunga bunga</li>
                   </ul>
                 </div>       
-                <div className="description">Animeweb is a beautifully designed website for watching anime for free with no adds
+                <div className="description">Wordpress, PHP, CMS
                </div>     
         </div>
         </div>
