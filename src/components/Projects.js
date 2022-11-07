@@ -7,7 +7,7 @@ function Projects() {
        <div className="Projects"> <h1>Projects</h1></div>
        <div className="c1"> 
         <div className="animeweb"><a href="https://github.com/rrezonistrefaj/animeweb"><h6>animeweb</h6></a>
-        <span className="date"><p>Aug 2022 - Sep 2022</p></span>
+        <span className="date"><p>Jan 2022 - June 2022</p></span>
         </div>
         
         <div/>
@@ -22,11 +22,7 @@ function Projects() {
                     <li>Developed skip feature and next episode</li>
                     <li>Updated anime content</li>
                   </ul>
-                </div>
-                
-              
-              
-            
+                </div>            
         </div>
         </div>
        
@@ -42,9 +38,6 @@ function Projects() {
        }
        .role{
         font-style: italic;
-       }
-       .animeweb{
-       line-height: 2.5;
        }
        .date{
         font-size: .6em;
@@ -72,6 +65,7 @@ function Projects() {
         color: #232e53;
         font-size: 1.6rem;
         padding-bottom: 20px;
+        line-height: 2.5;
        }
        .animeweb a{
         color: #232e53;
