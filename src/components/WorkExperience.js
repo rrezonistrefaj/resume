@@ -19,10 +19,10 @@ function WorkExperience() {
                   <ul>
                     <li>Helped design websites for clients</li>
                     <li>Improved CSS template design</li>
-                    <li>Big booty bitchez bunga bunga</li>
+                    <li>Added Event Listeners to improve UX</li>
                   </ul>
                 </div>       
-                <div className="description">Wordpress, PHP, CMS
+                <div className="description">Wordpress,Javascript, CSS, PHP, CMS
                </div>     
         </div>
         </div>
